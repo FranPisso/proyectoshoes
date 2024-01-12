@@ -1,0 +1,42 @@
+.logotipo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.encabezado {
+    background-color: black;
+}
+
+.productos {
+    background-color: green;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+
+}
+
+.productos h2 {
+    font-size: 2rem;
+}
+
+.btnCompra {
+    background-color: green;
+    color: #fafafa;
+}
+.btnCompra:hover {
+    background-color: rgb(13, 81, 13);
+}
+
+.nav-link{
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+a:hover{
+    color: #fafafa;
+    font-weight: 400;
+}
