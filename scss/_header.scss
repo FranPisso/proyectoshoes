@@ -1,0 +1,23 @@
+/* HEADER */
+
+/* ENCABEZADO */
+
+.logotipo {
+    width: 125px;
+    cursor: pointer;
+  }
+  
+  .encabezado {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
