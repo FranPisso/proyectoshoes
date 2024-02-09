@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="Descubre la comodidad y estilo inigualables en nuestra colección de zapatillas. Explora las últimas tendencias de calzado deportivo y urbano, diseñadas para brindarte el máximo rendimiento y un look moderno. Encuentra la combinación perfecta de moda y funcionalidad en cada paso que des. ¡Bienvenido al mundo de la moda para tus pies!">
+    <title>Proyecto Final | Ofertas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="container-auto">
+
+    <!-- HEADER -->
 
     <header class="navbar navbar-expand-lg encabezado ">
         <div class="container-fluid">
@@ -43,106 +47,116 @@
         </div>
     </header>
 
-    <div class="titulo">
-        <h1>Ofertas</h1>
-    </div>
+    <!-- MAIN -->
 
-    <section class="fondo2">
+    <main>
 
-    <div class="container">
-        
-        
-        <div class="d-flex justify-content-center">
-         <div class="card destacadas" style="width: 18rem;">
-             <img src="../img/NMD V.3.avif" class="card-img-top" alt="Adidas NMD V.3">
-             <div class="card-body">
-               <h5 class="card-title">Adidas NMD V.3</h5>
-               <p class="card-text">$ 185</p>
-               <button type="button" class="btnCompra" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                 Añadir al Carrito</button>
-             </div>
-           </div>
+        <!-- título -->
+        <div class="titulo">
+            <h1>Ofertas</h1>
         </div>
-     
-           <div class="d-flex justify-content-center">
-             <div class="card destacadas" style="width: 18rem;">
-                 <img src="../img/af1.webp" class="card-img-top" alt="Nike Air Force 1 Black and White">
-                 <div class="card-body">
-                   <h5 class="card-title">Nike Air Force 1 Black and White</h5>
-                   <p class="card-text">$ 160</p>
-                   <button type="button" class="btnCompra" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                     Añadir al Carrito</button>
-                 </div>
-               </div>
-           </div>
-     
-           <div class="d-flex justify-content-center">
-             <div class="card destacadas" style="width: 18rem;">
-                 <img src="../img/Duramo.avif" class="card-img-top" alt="Adidas Duramo">
-                 <div class="card-body">
-                   <h5 class="card-title">Adidas Duramo</h5>
-                   <p class="card-text">$ 120</p>
-                   <button type="button" class="btnCompra" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                     Añadir al Carrito</button></a>
-                 </div>
-               </div>
-           </div>
 
-           <div class="d-flex justify-content-center">
-            <div class="card destacadas" style="width: 18rem;">
-                <img src="../img/ultrabounce.avif" class="card-img-top" alt="Adidas Ultrabounce">
-                <div class="card-body">
-                  <h5 class="card-title">Adidas Ultrabounce</h5>
-                  <p class="card-text">$ 160</p>
-                  <button type="button" class="btnCompra" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Añadir al Carrito</button></a>
+        <!-- cards -->
+
+        <section class="fondo2">
+
+            <div class="container">
+
+
+                <div class="d-flex justify-content-center">
+                    <div class="card col-lg-6 col-md-3 destacadas cajaDestacados">
+                        <img src="../img/NMD V.3 real.jpg" class="card-img-top" alt="Adidas NMD V.3">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas NMD V.3</h5>
+                            <p class="card-text">$ 185</p>
+                            <button type="button" class="btnCompra" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Añadir al Carrito</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-          </div>
 
-          <div class="d-flex justify-content-center">
-            <div class="card destacadas" style="width: 18rem;">
-                <img src="../img/forum bold.avif" class="card-img-top" alt="Adidas Forum Bold">
-                <div class="card-body">
-                  <h5 class="card-title">Adidas Forum Bold</h5>
-                  <p class="card-text">$ 200</p>
-                  <button type="button" class="btnCompra" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Añadir al Carrito</button></a>
+                <div class="d-flex justify-content-center">
+                    <div class="card col-lg-6 col-md-3 destacadas cajaDestacados">
+                        <img src="../img/af1 real.jpg" class="card-img-top" alt="Nike Air Force 1 Black and White">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Air Force 1 B&W</h5>
+                            <p class="card-text">$ 160</p>
+                            <button type="button" class="btnCompra" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Añadir al Carrito</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-          </div>
- 
- 
-     </div>
 
-    </section>
-
-   
-
-    <!-- MODAL -->
-
-    <!-- Button trigger modal -->
-    
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de Compras</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="d-flex justify-content-center">
+                    <div class="card col-lg-6 col-md-3 destacadas cajaDestacados">
+                        <img src="../img/Duramos.jpg" class="card-img-top" alt="Adidas Duramo">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Duramo</h5>
+                            <p class="card-text">$ 120</p>
+                            <button type="button" class="btnCompra" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Añadir al Carrito</button></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    ¿Esta seguro de añadir este producto al carrito?
+
+                <div class="d-flex justify-content-center">
+                    <div class="card destacadas col-lg-6 col-md-3 cajaDestacados">
+                        <img src="../img/ultrabounce.jpg" class="card-img-top" alt="Adidas Ultrabounce">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Ultrabounce</h5>
+                            <p class="card-text">$ 160</p>
+                            <button type="button" class="btnCompra" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Añadir al Carrito</button></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Rechazar</button>
-                    <button type="button" class="btnCompra">Aceptar</button>
+
+                <div class="d-flex justify-content-center">
+                    <div class="card destacadas col-lg-6 col-md-3 cajaDestacados">
+                        <img src="../img/forum bold.jpg" class="card-img-top" alt="Adidas Forum Bold">
+                        <div class="card-body">
+                            <h5 class="card-title">Adidas Forum Bold</h5>
+                            <p class="card-text">$ 200</p>
+                            <button type="button" class="btnCompra" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Añadir al Carrito</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de Compras</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ¿Esta seguro de añadir este producto al carrito?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Rechazar</button>
+                        <button type="button" class="btnCompra">Aceptar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
+    </main>
+
+    <!-- FOOTER -->
     <footer class="container-fluid">
         <h3 class="small">Shoes n´ Boots | Todos los derechos reservados</h3>
     </footer>

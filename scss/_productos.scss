@@ -1,48 +1,68 @@
+.btnCompra {
+  background-color: green;
+  color: #fafafa;
 
-  .btnCompra {
-    background-color: green;
-    color: #fafafa;
-  
-    &:hover {
-      background-color: rgb(13, 81, 13);
-    }
+  &:hover {
+    background-color: rgb(13, 81, 13);
   }
-  
-  a:hover {
-    color: #fafafa;
-    font-weight: 400;
-  }
+}
 
-  /* destacadas */
+a:hover {
+  color: #fafafa;
+  font-weight: 400;
+}
+
+/* destacadas */
 .destacadas {
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 
 .tarjeta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fafafa;
-    border: 1px solid #ccc;
-    box-shadow: 0px 2px 4px black;
-  
-    img {
-      max-width: 100%;
-    }
-  
-    p {
-      margin: 10px;
-    }
-  }
-  
-  .card {
-    margin: 60px;
-    padding: 50px;
-   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px black;
+  border-style: solid;
+
+
+
+  img {
+    max-width: 100%;
   }
 
-  
+  p {
+    margin: 10px;
+  }
+}
+
+.card {
+  margin: 60px;
+  padding: 50px;
+
+}
+
+.cajaProducto {
+  background: radial-gradient(white, #2c2c2c);
+  transition: all 0.5s;
+
+  &:hover {
+    width: 28%;
+    height: 28%;
+  }
+}
+
+.cajaDestacados {
+  background: radial-gradient(white, #2c2c2c);
+  transition: all 0.5s;
+
+  &:hover {
+    width: 60%;
+    height: 60%;
+  }
+}

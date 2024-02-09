@@ -1,0 +1,17 @@
+.formularioBoton {
+  background-color: green;
+  background-color: green;
+  color: #fafafa;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgb(13, 81, 13);
+  }
+
+}
+
+form {
+  margin: 100px;
+  background-color: brown;
+  border-radius: 10px;
+}
